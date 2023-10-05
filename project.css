@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 2;
+    font-family: sans-serif;
+}
+a{
+   font-size: large;
+   font-weight: bolder;
+   text-decoration: none;
+   color: #fff;
+}
+.point
+{ 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(car1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    transition: .8s;
+}
+.button-up
+{
+    position: relative;
+    margin-left: 220px;
+    margin-top: 450px;
+    width: 250px;
+    height: 60px;
+    border-radius: 3px;
+    border-width: 0px;
+    background-color: #1c69d4;
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.button-up:hover
+{
+    opacity: 1;
+}
+.subpoint
+{
+    width: auto;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.logo
+{
+    width: auto;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.subpoint ul li
+{
+    margin-right: 120px;
+    margin-top: 20px;
+    list-style: none;
+    display: inline;
+}
+.subpoint ul li a
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(10, 10, 10);
+}
+#text1
+{
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 20px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
+#text2
+{
+    margin-left: 21.7%;
+    font-weight: 600;
+    margin-top: 1%;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
+#text3
+{
+    margin-left: 21.9% ;
+    font-style: initial;
+    font-size: xx-large;
+    color: black;
+}
+#text4
+{
+    margin-left: 21.99%;
+    font-style: italic;
+    font-size: x-large;
+    color: black;
+}
+.page2
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+.vdo1
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: black;
+    width: 100%;
+
+}
+#text5
+{
+  color: #fff;
+  font-size: 4rem;
+  line-height: 2.5rem;
+  position: absolute;
+  left: 40px;
+  top: 600px;
+}
+.container
+{
+    position: absolute;
+    top: 650px;
+    left: 350px;
+}
+.button-1
+{
+   width: 250px;
+   height: 60px;
+   text-align: center;
+   font-size: larger; 
+   color:white;
+   background-color:#1c69d4;
+   font-style: normal;
+   border-radius: 4px;
+   transition: 0.9s;
+   opacity: 0.9;
+   cursor: pointer;
+}
+.button-1:hover
+{
+    opacity: 1;
+}
+.button-2
+{
+   width: 250px;
+   height: 60px;
+   text-align: center;
+   font-size: larger; 
+   color:white;
+   background-color:transparent;
+   font-style: normal;
+   border-radius: 4px;
+   border-color: #fff;
+   border-width: 1px;
+   margin-left: 15px;
+   transition: 0.9s;
+   opacity: 0.5;
+   cursor: pointer;
+}
+.button-2:hover
+{
+    opacity: 1;
+}
+.page3
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+    padding-bottom: 100px;
+    
+}
+.pic1
+{
+    margin-left: 0px;
+    margin-top: -10px;
+    top: 0px;
+    
+}
+.pic1-content
+{
+   width: 400px;
+   height: 0px;
+   left: 990px;
+   bottom: 670px;
+   position: relative;
+   text-align: justify;
+   
+}
+.text6
+{
+   text-decoration: none; 
+   font-size: 20px;
+   color: #fff;
+   font-weight: 100;
+   font-family: "Roboto";
+}
+.pic2
+{
+    margin-left: 70px;
+    position: relative;
+    top: 20px;
+}
+.text7
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Roboto";
+}
+.pic2-content
+{
+    position: relative;
+    text-align: justify;
+    width: 450px;
+    height: 40px;
+    left: 750px;
+    bottom: 400px;
+    
+
+}
+.page4
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.page4-content
+{
+    color: #fff;
+}
+#text8
+{
+    padding-left: 1000px;
+    position:absolute;
+    padding-top: 470px;
+    font-size: 17px;
+    font-weight: bolder;
+    font-style: initial;
+    font-stretch: expanded;
+    
+}
+#text9
+{
+    position: absolute;
+    padding-left: 1000px;
+    padding-top: 500px;
+    height: 40px;
+    width: 370px;
+    font-size: 40px;
+    font-style: initial;
+}
+#text10
+{
+    position: absolute;
+    padding-left: 1000px;
+    height: 50px;
+    width: 370px;
+    padding-top: 600px;
+    font-style: initial;
+}
+.page4-button1
+{
+    width: 500px;
+   height: 60px;
+   position: absolute;
+   text-align: center;
+   font-size: x-large; 
+   color:white;
+   font-style: initial;
+   background-color:transparent;
+   font-style: normal;
+   border-radius: 5px;
+   border-color: #fff;
+   background-color: #1c69d4;
+   border-width: 0px;
+   margin-left: 15px;
+   opacity: .9;
+   cursor: pointer;
+   left: 925px;
+   margin-top: 700px;
+   transition: .8s;
+}
+.page4-button2
+{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    text-align: center;
+    font-size: larger; 
+    color:white;
+    background-color:transparent;
+    font-style: normal;
+    border-radius: 5px;
+    border-color: #fff;
+    border-width: 1px;
+    margin-left: 15px;
+    opacity: .6;
+    cursor: pointer;
+    left: 925px;
+   margin-top: 780px;
+   transition: .8s;
+}
+.page4-button2:hover
+{
+    opacity: 1;
+}
+.page4-button1:hover
+{
+    opacity: 1;
+}
+.page5
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+.pic5
+{
+   padding-top: 0px; 
+}
+.pic6-content
+{
+   position: relative;
+   margin-left: 80px;
+   bottom: 230px;
+}
+.page5-button1
+{
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    text-align: center;
+    font-size: larger; 
+    color:white;
+    background-color:#1c69d4;
+    font-style: normal;
+    border-radius: 5px;
+    border-color: #fff;
+    border-width: 0px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-style: initial;
+    opacity: .9;
+}
+.page5-button1:hover
+{
+    opacity: 1;
+}
+.footer
+{
+    padding: 30px 0;
+}
+.container-2
+{
+   position: absolute;
+   width: 100%;
+   height: 30%;
+   background-color: #262626;
+   left: 0px;
+   padding-bottom: 60px;
+   max-height: 50%;
+   margin: auto;
+}
+.row
+{
+    display: flex;
+    
+}
+.footer-col
+{
+    width: 20%;
+    padding: 0 35px;
+}
+.footer-col h4
+{
+    margin-left: 27px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: "poppins";
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+
+    
+}
+.footer-col li 
+{
+   margin-bottom: 10px;
+   font-weight: 300; 
+   color: gray;   
+}
+.footer-col li a
+{
+    color: gray;
+    transition: .1s;
+}
+.footer-col li a:hover
+{
+    color: #fff;
+}
+#end
+{
+    color: #fff;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 350px;
+    color: gray;
+}
+
+ 
+
+
+
